@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CDB7421CF2D58F00C5957B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDB7411CF2D58F00C5957B /* AppDelegate.swift */; };
+		03CDB7441CF2D58F00C5957B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDB7431CF2D58F00C5957B /* ViewController.swift */; };
+		03CDB7471CF2D58F00C5957B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CDB7451CF2D58F00C5957B /* Main.storyboard */; };
+		03CDB7491CF2D58F00C5957B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CDB7481CF2D58F00C5957B /* Assets.xcassets */; };
+		03CDB74C1CF2D58F00C5957B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CDB74A1CF2D58F00C5957B /* LaunchScreen.storyboard */; };
+		03CDB7571CF2D58F00C5957B /* Thing_Speak_ReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDB7561CF2D58F00C5957B /* Thing_Speak_ReaderTests.swift */; };
+		03CDB7621CF2D58F00C5957B /* Thing_Speak_ReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CDB7611CF2D58F00C5957B /* Thing_Speak_ReaderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03CDB7531CF2D58F00C5957B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CDB7361CF2D58E00C5957B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CDB73D1CF2D58E00C5957B;
+			remoteInfo = "Thing Speak Reader";
+		};
+		03CDB75E1CF2D58F00C5957B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CDB7361CF2D58E00C5957B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CDB73D1CF2D58E00C5957B;
+			remoteInfo = "Thing Speak Reader";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CDB73E1CF2D58E00C5957B /* Thing Speak Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thing Speak Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CDB7411CF2D58F00C5957B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03CDB7431CF2D58F00C5957B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03CDB7461CF2D58F00C5957B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03CDB7481CF2D58F00C5957B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03CDB74B1CF2D58F00C5957B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03CDB74D1CF2D58F00C5957B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CDB7521CF2D58F00C5957B /* Thing Speak ReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thing Speak ReaderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CDB7561CF2D58F00C5957B /* Thing_Speak_ReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing_Speak_ReaderTests.swift; sourceTree = "<group>"; };
+		03CDB7581CF2D58F00C5957B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CDB75D1CF2D58F00C5957B /* Thing Speak ReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Thing Speak ReaderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CDB7611CF2D58F00C5957B /* Thing_Speak_ReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing_Speak_ReaderUITests.swift; sourceTree = "<group>"; };
+		03CDB7631CF2D58F00C5957B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CDB73B1CF2D58E00C5957B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CDB74F1CF2D58F00C5957B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CDB75A1CF2D58F00C5957B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CDB7351CF2D58E00C5957B = {
+			isa = PBXGroup;
+			children = (
+				03CDB7401CF2D58F00C5957B /* Thing Speak Reader */,
+				03CDB7551CF2D58F00C5957B /* Thing Speak ReaderTests */,
+				03CDB7601CF2D58F00C5957B /* Thing Speak ReaderUITests */,
+				03CDB73F1CF2D58E00C5957B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CDB73F1CF2D58E00C5957B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CDB73E1CF2D58E00C5957B /* Thing Speak Reader.app */,
+				03CDB7521CF2D58F00C5957B /* Thing Speak ReaderTests.xctest */,
+				03CDB75D1CF2D58F00C5957B /* Thing Speak ReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CDB7401CF2D58F00C5957B /* Thing Speak Reader */ = {
+			isa = PBXGroup;
+			children = (
+				03CDB7411CF2D58F00C5957B /* AppDelegate.swift */,
+				03CDB7431CF2D58F00C5957B /* ViewController.swift */,
+				03CDB7451CF2D58F00C5957B /* Main.storyboard */,
+				03CDB7481CF2D58F00C5957B /* Assets.xcassets */,
+				03CDB74A1CF2D58F00C5957B /* LaunchScreen.storyboard */,
+				03CDB74D1CF2D58F00C5957B /* Info.plist */,
+			);
+			path = "Thing Speak Reader";
+			sourceTree = "<group>";
+		};
+		03CDB7551CF2D58F00C5957B /* Thing Speak ReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				03CDB7561CF2D58F00C5957B /* Thing_Speak_ReaderTests.swift */,
+				03CDB7581CF2D58F00C5957B /* Info.plist */,
+			);
+			path = "Thing Speak ReaderTests";
+			sourceTree = "<group>";
+		};
+		03CDB7601CF2D58F00C5957B /* Thing Speak ReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03CDB7611CF2D58F00C5957B /* Thing_Speak_ReaderUITests.swift */,
+				03CDB7631CF2D58F00C5957B /* Info.plist */,
+			);
+			path = "Thing Speak ReaderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CDB73D1CF2D58E00C5957B /* Thing Speak Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CDB7661CF2D58F00C5957B /* Build configuration list for PBXNativeTarget "Thing Speak Reader" */;
+			buildPhases = (
+				03CDB73A1CF2D58E00C5957B /* Sources */,
+				03CDB73B1CF2D58E00C5957B /* Frameworks */,
+				03CDB73C1CF2D58E00C5957B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thing Speak Reader";
+			productName = "Thing Speak Reader";
+			productReference = 03CDB73E1CF2D58E00C5957B /* Thing Speak Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03CDB7511CF2D58F00C5957B /* Thing Speak ReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CDB7691CF2D58F00C5957B /* Build configuration list for PBXNativeTarget "Thing Speak ReaderTests" */;
+			buildPhases = (
+				03CDB74E1CF2D58F00C5957B /* Sources */,
+				03CDB74F1CF2D58F00C5957B /* Frameworks */,
+				03CDB7501CF2D58F00C5957B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CDB7541CF2D58F00C5957B /* PBXTargetDependency */,
+			);
+			name = "Thing Speak ReaderTests";
+			productName = "Thing Speak ReaderTests";
+			productReference = 03CDB7521CF2D58F00C5957B /* Thing Speak ReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03CDB75C1CF2D58F00C5957B /* Thing Speak ReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CDB76C1CF2D58F00C5957B /* Build configuration list for PBXNativeTarget "Thing Speak ReaderUITests" */;
+			buildPhases = (
+				03CDB7591CF2D58F00C5957B /* Sources */,
+				03CDB75A1CF2D58F00C5957B /* Frameworks */,
+				03CDB75B1CF2D58F00C5957B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CDB75F1CF2D58F00C5957B /* PBXTargetDependency */,
+			);
+			name = "Thing Speak ReaderUITests";
+			productName = "Thing Speak ReaderUITests";
+			productReference = 03CDB75D1CF2D58F00C5957B /* Thing Speak ReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CDB7361CF2D58E00C5957B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ecosmob;
+				TargetAttributes = {
+					03CDB73D1CF2D58E00C5957B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HFL5CLCMK4;
+					};
+					03CDB7511CF2D58F00C5957B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HFL5CLCMK4;
+						TestTargetID = 03CDB73D1CF2D58E00C5957B;
+					};
+					03CDB75C1CF2D58F00C5957B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HFL5CLCMK4;
+						TestTargetID = 03CDB73D1CF2D58E00C5957B;
+					};
+				};
+			};
+			buildConfigurationList = 03CDB7391CF2D58E00C5957B /* Build configuration list for PBXProject "Thing Speak Reader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03CDB7351CF2D58E00C5957B;
+			productRefGroup = 03CDB73F1CF2D58E00C5957B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CDB73D1CF2D58E00C5957B /* Thing Speak Reader */,
+				03CDB7511CF2D58F00C5957B /* Thing Speak ReaderTests */,
+				03CDB75C1CF2D58F00C5957B /* Thing Speak ReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CDB73C1CF2D58E00C5957B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CDB74C1CF2D58F00C5957B /* LaunchScreen.storyboard in Resources */,
+				03CDB7491CF2D58F00C5957B /* Assets.xcassets in Resources */,
+				03CDB7471CF2D58F00C5957B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CDB7501CF2D58F00C5957B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CDB75B1CF2D58F00C5957B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CDB73A1CF2D58E00C5957B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CDB7441CF2D58F00C5957B /* ViewController.swift in Sources */,
+				03CDB7421CF2D58F00C5957B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CDB74E1CF2D58F00C5957B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CDB7571CF2D58F00C5957B /* Thing_Speak_ReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CDB7591CF2D58F00C5957B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CDB7621CF2D58F00C5957B /* Thing_Speak_ReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03CDB7541CF2D58F00C5957B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CDB73D1CF2D58E00C5957B /* Thing Speak Reader */;
+			targetProxy = 03CDB7531CF2D58F00C5957B /* PBXContainerItemProxy */;
+		};
+		03CDB75F1CF2D58F00C5957B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CDB73D1CF2D58E00C5957B /* Thing Speak Reader */;
+			targetProxy = 03CDB75E1CF2D58F00C5957B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03CDB7451CF2D58F00C5957B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CDB7461CF2D58F00C5957B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03CDB74A1CF2D58F00C5957B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CDB74B1CF2D58F00C5957B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03CDB7641CF2D58F00C5957B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03CDB7651CF2D58F00C5957B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03CDB7671CF2D58F00C5957B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Thing Speak Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecosmob.Thing-Speak-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03CDB7681CF2D58F00C5957B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Thing Speak Reader/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecosmob.Thing-Speak-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03CDB76A1CF2D58F00C5957B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Thing Speak ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecosmob.Thing-Speak-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thing Speak Reader.app/Thing Speak Reader";
+			};
+			name = Debug;
+		};
+		03CDB76B1CF2D58F00C5957B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Thing Speak ReaderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecosmob.Thing-Speak-ReaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thing Speak Reader.app/Thing Speak Reader";
+			};
+			name = Release;
+		};
+		03CDB76D1CF2D58F00C5957B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Thing Speak ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecosmob.Thing-Speak-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Thing Speak Reader";
+			};
+			name = Debug;
+		};
+		03CDB76E1CF2D58F00C5957B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Thing Speak ReaderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ecosmob.Thing-Speak-ReaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Thing Speak Reader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CDB7391CF2D58E00C5957B /* Build configuration list for PBXProject "Thing Speak Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CDB7641CF2D58F00C5957B /* Debug */,
+				03CDB7651CF2D58F00C5957B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CDB7661CF2D58F00C5957B /* Build configuration list for PBXNativeTarget "Thing Speak Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CDB7671CF2D58F00C5957B /* Debug */,
+				03CDB7681CF2D58F00C5957B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03CDB7691CF2D58F00C5957B /* Build configuration list for PBXNativeTarget "Thing Speak ReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CDB76A1CF2D58F00C5957B /* Debug */,
+				03CDB76B1CF2D58F00C5957B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03CDB76C1CF2D58F00C5957B /* Build configuration list for PBXNativeTarget "Thing Speak ReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CDB76D1CF2D58F00C5957B /* Debug */,
+				03CDB76E1CF2D58F00C5957B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CDB7361CF2D58E00C5957B /* Project object */;
+}
